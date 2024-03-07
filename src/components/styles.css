@@ -1,0 +1,16 @@
+.tabs-nav {
+    display: flex;
+    align-items: center;
+}
+.tab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 60px;
+    cursor: pointer;
+    border: 1px solid rebeccapurple;
+}
+.tab + .tab {
+    margin-left: 10px;
+}
