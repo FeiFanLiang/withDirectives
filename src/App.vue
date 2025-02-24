@@ -1,13 +1,9 @@
 <script setup>
-import Tab from './components/Tab'
-import TabPane from './components/TabPane'
+//import TheWelcome from "./components/TheWelcome.vue";
 </script>
 
 <template>
-  <Tab>
-    <TabPane name="1">1</TabPane>
-    <TabPane name="2">2</TabPane>
-  </Tab>
+  <router-view />
 </template>
 
 <style scoped>
